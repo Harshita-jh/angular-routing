@@ -1,0 +1,12 @@
+[
+
+    {"empId":1001, "empName":"Elena", "empSal":40000, "empDesig":"senior software engineer", "empImg":"assets/Elena.jpeg"},
+    {"empId":1002, "empName":"Joy", "empSal":30000, "empDesig":"software engineer", "empImg":"assets/Joy.jpeg"},
+    {"empId":103, "empName":"John", "empSal":20000, "empDesig":"trainee", "empImg":"assets/John.jpeg"},
+    {"empId":1004, "empName":"Michelle", "empSal":80000, "empDesig":"technical lead", "empImg":"assets/michelle.jpeg"},
+    {"empId":1005, "empName":"Max", "empSal":85000, "empDesig":"associate manager", "empImg":"assets/Max.jpeg"},
+    {"empId":1006, "empName":"James", "empSal":90000, "empDesig":"manager", "empImg":"assets/James.jpeg"}
+   
+    
+   
+    ]

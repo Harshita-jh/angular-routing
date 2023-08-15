@@ -1,0 +1,9 @@
+nav a.active{
+    color: brown;
+    background-color: wheat;
+}
+
+.navbar-brand{
+padding-left: 9px ;
+}
+

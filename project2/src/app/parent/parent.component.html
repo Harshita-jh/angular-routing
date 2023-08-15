@@ -1,0 +1,9 @@
+<p>parent works!</p>
+<!-- <app-child></app-child>
+<h2>This is Parent Component</h2> -->
+
+<h2>This is Parent Component -{{amount}}</h2>
+
+<hr/>
+
+<app-child [amt] ="amount" (chiru)="parentFunction($event)" ></app-child>

@@ -1,0 +1,25 @@
+<div class="container">
+
+<div class="card mx-auto mt-5" style="width: 40rem;">
+    <div class="card-header d-flex justify-content-center"><b>Calculator</b></div>
+    <div class="card-body">
+        <div class="form-group d-flex flex-row">
+            
+            <input [(ngModel)]='num1' placeholder="Enter number one" name="num1" class="form-control">
+            
+            <input [(ngModel)]='num2' placeholder="Enter number two" name="num2" class="form-control">
+        </div>
+        <br>
+        <div class="d-flex flex-row justify-content-around">
+            <button class="btn btn-success" (click)="add()">Add</button>
+            <button class="btn btn-danger" (click)="sub()">Sub</button>
+            <button class="btn btn-warning" (click)="mul()">Mul</button>
+            <button class="btn btn-info" (click)="div()">Div</button>
+        </div>
+        
+    </div>
+    <div class="card-footer">
+        <h6>The Result is : {{result}}</h6>
+    </div>
+</div>
+</div>

@@ -1,0 +1,32 @@
+<p>cart works!</p>
+
+<!-- Search Name: <input type="search" [(ngModel)]="searchText"  placeholder="search here..."/> <br> <br> -->
+
+<div class="d-flex row">
+
+  <div *ngFor="let p of products" class="col-md-4" style="margin-top: 3px; margin-bottom: 10px;">
+
+    <div class="card text-bg-light mb-3" style="max-width: 17rem; height: 320px;">
+
+      <div class="card-header">Product card</div>
+
+      <div class="card-body">
+
+        <img [src]="p.productImage" class="card-img-top" alt="...">
+
+        <p>Product Id :{{p.productId}}</p>
+
+        <p>Product Name: {{p.productName}}</p>
+
+        <p>Product Price:{{p.productPrice}}</p>
+
+        <p>Product Description:{{p.productDesc}}</p>
+        
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

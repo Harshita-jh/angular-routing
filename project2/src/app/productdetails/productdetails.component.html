@@ -1,0 +1,28 @@
+
+
+<pre ><h6> Search by Product name: <input type="text" placeholder="search Product" [(ngModel)]="searchProd"></h6></pre>
+
+<div class="container">
+<div class="d-flex row">
+ 
+<div *ngFor="let product of products | productsearchfilter : searchProd" class="col-md-4" style="margin-top: 5px;margin-bottom: 10px;">
+
+    <div class="card bg-white rounded" style="width: 24rem;">
+
+        <img src={{product.productImg}} class="card-img-top" alt="..." width="200"  height="200">
+
+        <p >Product Id :{{product.productId}}</p>
+
+        <p>Product Name: {{product.productName}}</p>
+
+        <p>Product Price:{{product.productPrice}}</p>
+
+        <p>Product Description:{{product.productDesc}}</p>
+        <button type="button" (click)="addToCart(product)" id="btncart">Add to Cart</button>
+
+    </div>
+
+</div>
+
+</div>
+</div>

@@ -1,0 +1,40 @@
+<p>template-driven works!</p>
+
+<div class="container">
+
+<h2>Registration Form</h2>
+
+<form #userForm = "ngForm" (ngSubmit)="submitData(userForm.value)">
+
+    <div class="form-group">
+
+        <label>Name:</label>
+
+        <input type="text" #nameRef="ngModel" name="name" ngModel class="form-control"/>
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Email:</label>
+
+        <input type="text" #emailRef="ngModel" name="email" ngModel class="form-control"/>
+
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</div>
+
+
+
+
+<!-- user = {
+
+    name:'chiru',
+
+    email:'chiru@hcl.com'
+
+} -->
